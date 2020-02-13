@@ -31,6 +31,7 @@ echo $data->brandstof_omschrijving;
 ## Possible data sets
 
 * info
+* assen
 * brandstof
 * carrosserie
 * carrosserieSpecifiek
