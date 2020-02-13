@@ -67,10 +67,10 @@ class RDWAPI
             $response = ($this->client->get("{$this->getEndpoint($data)}?kenteken={$license}"))->getBody();
             
             if ( !empty(json_decode($response)[0]) ) {
-				return json_decode($response)[0];
-			} else {
-				return false;
-			}
+		return json_decode($response)[0];
+	    } else {
+		return false;
+	    }
             
         } catch(Exception $e) {
             echo 'Message: ' .$e->getMessage();
