@@ -19,6 +19,7 @@ class RDWAPI
      */
     protected $endpoints = [
         'info'                  => 'm9d7-ebf2.json',
+	'assen'			=> '3huj-srit.json',
         'brandstof'             => '8ys7-d773.json',
         'carrosserie'           => 'vezc-m2t6.json',
         'carrosserieSpecifiek'  => 'jhie-znh9.json',
