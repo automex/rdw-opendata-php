@@ -6,6 +6,8 @@ use RDWOA\RDW;
 
 var_dump(RDW::get('90FPDP'));
 
+// var_dump(RDW::get('90FPDP', 'assen'));
+
 // var_dump(RDW::get('90FPDP', 'brandstof'));
 
 // var_dump(RDW::get('90FPDP', 'carrosserie'));
