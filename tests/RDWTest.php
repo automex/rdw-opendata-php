@@ -14,6 +14,16 @@ class RDWTest extends TestCase
             $data
         );
     }
+    
+    public function testContainsSpoorbreedteWithAssenDateSpecified()
+    {
+        $data = RDW::get('90FPDP', 'assen');
+
+        $this->assertObjectHasAttribute(
+            'spoorbreedte',
+            $data
+        );
+    }
 
     public function testContainsMerkWithInfoDataSpecified()
     {
