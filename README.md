@@ -41,7 +41,8 @@ echo $data->brandstof_omschrijving;
 
 ### Version 1.1
 * Added new data set "Assen".
-* Updated unit test for assen.
+* Fixed and updated failing unit tests.
+* Added new unit tests for "Assen".
 
 ### Version 1.0
 * Project forked from jeffreyvr/rdw-opendata-php
