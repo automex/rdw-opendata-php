@@ -6,9 +6,9 @@ Simple library for getting vehicle data by license plate number.
 
 Data source: https://opendata.rdw.nl
 
-## Installation
+<!--## Installation
 
-`composer require automex/rdw-opendata-php:^1.1`
+`composer require automex/rdw-opendata-php:^1.1`-->
 
 ## Example usage
 
