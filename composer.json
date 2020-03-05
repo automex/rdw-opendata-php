@@ -6,6 +6,10 @@
         {
             "name": "Jeffrey van Rossum",
             "email": "rossum.jeffrey@gmail.com"
+        },
+        {
+            "name": "Patrick Groot",
+            "email": "info@patrickgroot.com"
         }
     ],
     "autoload": {
