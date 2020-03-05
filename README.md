@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/jeffreyvr/rdw-opendata-php.svg?branch=master)](https://travis-ci.org/jeffreyvr/rdw-opendata-php)
+[![Build Status](https://travis-ci.org/automex/rdw-opendata-php.svg?branch=master)](https://travis-ci.org/automex/rdw-opendata-php)
 
 # RDW Open Data
 
