@@ -39,8 +39,8 @@ echo $data->brandstof_omschrijving;
 
 ## Changelog
 
-# Version 1.1
+### Version 1.1
 * Added new data set "Assen".
 
-# Version 1.0
+### Version 1.0
 * Project forked from jeffreyvr/rdw-opendata-php
