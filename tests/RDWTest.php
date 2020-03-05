@@ -7,7 +7,7 @@ class RDWTest extends TestCase
 {
     public function testContainsMerkWithoutDataSpecified()
     {
-        $data = RDW::get('90FPDP');
+        $data = RDW::get('XP004T');
 
         $this->assertObjectHasAttribute(
             'kenteken',
@@ -17,7 +17,7 @@ class RDWTest extends TestCase
     
     public function testContainsSpoorbreedteWithAssenDateSpecified()
     {
-        $data = RDW::get('90FPDP', 'assen');
+        $data = RDW::get('XP004T', 'assen');
 
         $this->assertObjectHasAttribute(
             'spoorbreedte',
@@ -27,7 +27,7 @@ class RDWTest extends TestCase
 
     public function testContainsMerkWithInfoDataSpecified()
     {
-        $data = RDW::get('90FPDP', 'info');
+        $data = RDW::get('XP004T', 'info');
 
         $this->assertObjectHasAttribute(
             'kenteken',
@@ -37,7 +37,7 @@ class RDWTest extends TestCase
 
     public function testContainsBrandstofOmschrijving()
     {
-        $data = RDW::get('90FPDP', 'brandstof');
+        $data = RDW::get('XP004T', 'brandstof');
 
         $this->assertObjectHasAttribute(
             'brandstof_omschrijving',
@@ -47,7 +47,7 @@ class RDWTest extends TestCase
     
     public function testContainsCarrosserieType()
     {
-        $data = RDW::get('90FPDP', 'carrosserie');
+        $data = RDW::get('XP004T', 'carrosserie');
 
         $this->assertObjectHasAttribute(
             'carrosserietype',
