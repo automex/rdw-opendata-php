@@ -14,16 +14,6 @@ class RDWTest extends TestCase
             $data
         );
     }
-    
-    public function testContainsSpoorbreedteWithAssenDateSpecified()
-    {
-        $data = RDW::get('XP004T', 'assen');
-
-        $this->assertObjectHasAttribute(
-            'spoorbreedte',
-            $data
-        );
-    }
 
     public function testContainsMerkWithInfoDataSpecified()
     {
@@ -31,6 +21,16 @@ class RDWTest extends TestCase
 
         $this->assertObjectHasAttribute(
             'kenteken',
+            $data
+        );
+    }
+    
+    public function testContainsSpoorbreedte()
+    {
+        $data = RDW::get('XP004T', 'assen');
+
+        $this->assertObjectHasAttribute(
+            'spoorbreedte',
             $data
         );
     }
