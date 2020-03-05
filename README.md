@@ -8,7 +8,7 @@ Data source: https://opendata.rdw.nl
 
 ## Installation
 
-`composer require jeffreyvanrossum/rdw-opendata-php:^1.0`
+`composer require automex/rdw-opendata-php:^1.1`
 
 ## Example usage
 
