@@ -17,13 +17,13 @@ You call the static `get` method on the `RDW` class. You can pass two parameters
 ```php
 use RDWOA\RDW;
 
-$data = RDW::get('90FPDP');
+$data = RDW::get('XP004T');
 
 echo $data->merk;
 ```
 
 ```php
-$data = RDW::get('90FPDP', 'brandstof');
+$data = RDW::get('XP004T', 'brandstof');
 
 echo $data->brandstof_omschrijving;
 ```
