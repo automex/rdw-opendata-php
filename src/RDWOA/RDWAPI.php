@@ -18,14 +18,14 @@ class RDWAPI
      * @var array
      */
     protected $endpoints = [
-		'info'                   => 'm9d7-ebf2.json',
-		'assen'					 => '3huj-srit.json',
-		'brandstof'              => '8ys7-d773.json',
-		'carrosserie'            => 'vezc-m2t6.json',
-		'carrosserieSpecifiek'   => 'jhie-znh9.json',
-		'voertuigklasse'         => 'kmfi-hrps.json',
-		'voertuigBijzonderheden' => '7ug8-2dtt.json',
-		'voertuigSubcategorie'   => '2ba7-embk.json'
+      'info'                   => 'm9d7-ebf2.json',
+      'assen'					         => '3huj-srit.json',
+      'brandstof'              => '8ys7-d773.json',
+      'carrosserie'            => 'vezc-m2t6.json',
+      'carrosserieSpecifiek'   => 'jhie-znh9.json',
+      'voertuigklasse'         => 'kmfi-hrps.json',
+      'voertuigBijzonderheden' => '7ug8-2dtt.json',
+      'voertuigSubcategorie'   => '2ba7-embk.json'
     ];
 
     /**
@@ -68,8 +68,13 @@ class RDWAPI
     {
         try {
             $response = ($this->client->get("{$this->getEndpoint($data)}?kenteken={$license}"))->getBody();
-
-            return json_decode($response)[0];
+            
+            if ( !empty(json_decode($response)[0]) ) {
+		return json_decode($response)[0];
+	    } else {
+		return false;
+	    }
+            
         } catch(Exception $e) {
             echo 'Message: ' .$e->getMessage();
         }

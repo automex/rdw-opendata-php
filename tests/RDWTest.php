@@ -55,7 +55,7 @@ class RDWTest extends TestCase
         );
     }
 	
-	public function testContainsCarrosserieVolgnummer()
+	  public function testContainsCarrosserieVolgnummer()
     {
         $data = RDW::get('XP004T', 'carrosserieSpecifiek');
 
@@ -65,7 +65,7 @@ class RDWTest extends TestCase
         );
     }
 	
-	public function testContainsBijzonderheidVolgnummer()
+	  public function testContainsBijzonderheidVolgnummer()
     {
         $data = RDW::get('XP004T', 'voertuigBijzonderheden');
 
@@ -75,7 +75,7 @@ class RDWTest extends TestCase
         );
     }
 	
-	public function testContainsSubcategorieVolgnummer()
+	  public function testContainsSubcategorieVolgnummer()
     {
         $data = RDW::get('XP004T', 'voertuigSubcategorie');
 
