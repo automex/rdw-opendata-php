@@ -55,7 +55,7 @@ class RDWTest extends TestCase
         );
     }
 	
-	public function testContainsCarrosserieVolgnummer()
+    public function testContainsCarrosserieVolgnummer()
     {
         $data = RDW::get('OR51JV', 'carrosserieSpecifiek');
 
@@ -65,7 +65,7 @@ class RDWTest extends TestCase
         );
     }
 	
-	public function testContainsBijzonderheidVolgnummer()
+    public function testContainsBijzonderheidVolgnummer()
     {
         $data = RDW::get('0001WP', 'voertuigBijzonderheden');
 
@@ -75,7 +75,7 @@ class RDWTest extends TestCase
         );
     }
 	
-	public function testContainsSubcategorieVolgnummer()
+    public function testContainsSubcategorieVolgnummer()
     {
         $data = RDW::get('0005WD', 'voertuigSubcategorie');
 
