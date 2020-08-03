@@ -55,9 +55,9 @@ class RDWTest extends TestCase
         );
     }
 	
-	  public function testContainsCarrosserieVolgnummer()
+	public function testContainsCarrosserieVolgnummer()
     {
-        $data = RDW::get('XP004T', 'carrosserieSpecifiek');
+        $data = RDW::get('OR51JV', 'carrosserieSpecifiek');
 
         $this->assertObjectHasAttribute(
             'carrosserie_volgnummer',
@@ -65,9 +65,9 @@ class RDWTest extends TestCase
         );
     }
 	
-	  public function testContainsBijzonderheidVolgnummer()
+	public function testContainsBijzonderheidVolgnummer()
     {
-        $data = RDW::get('XP004T', 'voertuigBijzonderheden');
+        $data = RDW::get('0005WD', 'voertuigBijzonderheden');
 
         $this->assertObjectHasAttribute(
             'bijzonderheid_volgnummer',
@@ -75,9 +75,9 @@ class RDWTest extends TestCase
         );
     }
 	
-	  public function testContainsSubcategorieVolgnummer()
+	public function testContainsSubcategorieVolgnummer()
     {
-        $data = RDW::get('XP004T', 'voertuigSubcategorie');
+        $data = RDW::get('0001WP', 'voertuigSubcategorie');
 
         $this->assertObjectHasAttribute(
             'subcategorie_voertuig',
