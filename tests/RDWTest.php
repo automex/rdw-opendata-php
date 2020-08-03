@@ -70,7 +70,7 @@ class RDWTest extends TestCase
         $data = RDW::get('0005WD', 'voertuigBijzonderheden');
 
         $this->assertObjectHasAttribute(
-            'subcategorie_voertuig_europees',
+            'subcategorie_voertuig',
             $data
         );
     }
