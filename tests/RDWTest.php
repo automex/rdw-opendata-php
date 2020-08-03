@@ -67,7 +67,7 @@ class RDWTest extends TestCase
 	
 	public function testContainsBijzonderheidVolgnummer()
     {
-        $data = RDW::get('0005WD', 'voertuigBijzonderheden');
+        $data = RDW::get('0001WP', 'voertuigBijzonderheden');
 
         $this->assertObjectHasAttribute(
             'bijzonderheid_volgnummer',
@@ -77,7 +77,7 @@ class RDWTest extends TestCase
 	
 	public function testContainsSubcategorieVolgnummer()
     {
-        $data = RDW::get('0001WP', 'voertuigSubcategorie');
+        $data = RDW::get('0005WD', 'voertuigSubcategorie');
 
         $this->assertObjectHasAttribute(
             'subcategorie_voertuig',
