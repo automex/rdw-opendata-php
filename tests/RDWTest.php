@@ -54,4 +54,34 @@ class RDWTest extends TestCase
             $data
         );
     }
+	
+	  public function testContainsCarrosserieVolgnummer()
+    {
+        $data = RDW::get('XP004T', 'carrosserieSpecifiek');
+
+        $this->assertObjectHasAttribute(
+            'carrosserie_volgnummer',
+            $data
+        );
+    }
+	
+	  public function testContainsBijzonderheidVolgnummer()
+    {
+        $data = RDW::get('XP004T', 'voertuigBijzonderheden');
+
+        $this->assertObjectHasAttribute(
+            'bijzonderheid_volgnummer',
+            $data
+        );
+    }
+	
+	  public function testContainsSubcategorieVolgnummer()
+    {
+        $data = RDW::get('XP004T', 'voertuigSubcategorie');
+
+        $this->assertObjectHasAttribute(
+            'subcategorie_voertuig',
+            $data
+        );
+    }
 }

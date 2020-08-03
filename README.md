@@ -36,8 +36,14 @@ echo $data->brandstof_omschrijving;
 * carrosserie
 * carrosserieSpecifiek
 * voertuigklasse
+* voertuigBijzonderheden
+* voertuigSubcategorie
 
 ## Changelog
+
+### Version 1.2
+* Added new data sets "voertuigBijzonderheden" and "voertuigSubcategorie".
+* Added new unit tests for "voertuigBijzonderheden" and "voertuigSubcategorie".
 
 ### Version 1.1
 * Added new data set "Assen".
