@@ -40,15 +40,16 @@ echo $data->brandstof_omschrijving;
 * voertuigSubcategorie
 
 ## Changelog
-
-### Version 1.2
+```
+Version 1.2
 * Added new data sets "voertuigBijzonderheden" and "voertuigSubcategorie".
 * Added new unit tests for "voertuigBijzonderheden" and "voertuigSubcategorie".
 
-### Version 1.1
+Version 1.1
 * Added new data set "Assen".
 * Fixed and updated failing unit tests.
 * Added new unit tests for "Assen".
 
-### Version 1.0
+Version 1.0
 * Project forked from jeffreyvr/rdw-opendata-php
+```
