@@ -39,7 +39,7 @@ class RDWTest extends TestCase
     {
         $data = RDW::get('XP004T', 'brandstof');
 
-        $this->assertObjectHasAttribute(
+        $this->assertObjectHasAttribute( 
             'brandstof_omschrijving',
             $data
         );
