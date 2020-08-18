@@ -77,7 +77,7 @@ class RDWTest extends TestCase
 	
     public function testContainsSubcategorieVolgnummer()
     {
-        $data = RDW::get('0005WDD', 'voertuigSubcategorie');
+        $data = RDW::get('0005WD', 'voertuigSubcategorie');
 
         $this->assertObjectHasAttribute(
             'subcategorie_voertuig',
