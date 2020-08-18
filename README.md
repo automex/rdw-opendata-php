@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/automex/rdw-opendata-php.svg?branch=master)](https://travis-ci.org/automex/rdw-opendata-php)
 
-# RDW Open Data 123
+# RDW Open Data
 
 Simple library for getting vehicle data by license plate number.
 
