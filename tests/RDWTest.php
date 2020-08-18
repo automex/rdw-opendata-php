@@ -44,4 +44,40 @@ class RDWTest extends TestCase
             $data
         );
     }
+<<<<<<< Updated upstream
 }
+=======
+	
+    public function testContainsCarrosserieVolgnummer()
+    {
+        $data = RDW::get('OR51JV', 'carrosserieSpecifiek');
+
+        $this->assertObjectHasAttribute(
+            'carrosserie_volgnummer',
+            $data
+        );
+    }
+	
+    public function testContainsBijzonderheidVolgnummer()
+    {
+        $data = RDW::get('0001WP', 'voertuigBijzonderheden');
+
+        $this->assertObjectHasAttribute(
+            'bijzonderheid_volgnummer',
+            $data
+        );
+    }
+	
+    public function testContainsSubcategorieVolgnummer()
+    {
+        $data = RDW::get('0005WD', 'voertuigSubcategorie');
+
+        $this->assertObjectHasAttribute(
+            'subcategorie_voertuig',
+            $data
+        );
+    }
+	
+	
+}
+>>>>>>> Stashed changes
