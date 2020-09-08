@@ -64,6 +64,16 @@ class RDWTest extends TestCase
             $data
         );
     }
+
+	public function testContainsVoertuigklasseOmschrijving()
+    {
+        $data = RDW::get('61BPJ8', 'voertuigklasse');
+
+        $this->assertObjectHasAttribute(
+            'voertuigklasse_omschrijving',
+            $data
+        );
+    }
 	
     public function testContainsBijzonderheidVolgnummer()
     {
