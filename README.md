@@ -2,7 +2,7 @@
 
 # RDW Open Data
 
-Simple library for getting vehicle data by license plate number.
+Simple library for getting vehicle data by vehicle registration plate.
 
 Data source: https://opendata.rdw.nl
 
