@@ -24,7 +24,7 @@ class RDWAPI
       'carrosserie'            => 'vezc-m2t6.json',
       'carrosserieSpecifiek'   => 'jhie-znh9.json',
       'voertuigklasse'         => 'kmfi-hrps.json',
-      'voertuigBijzonderheden' => '7ug8-2dtt.json',
+      'bijzonderheden'         => '7ug8-2dtt.json',
       'voertuigSubcategorie'   => '2ba7-embk.json'
     ];
 
