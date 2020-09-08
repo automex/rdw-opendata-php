@@ -75,12 +75,12 @@ class RDWTest extends TestCase
         );
     }
 	
-    public function testContainsSubcategorieVolgnummer()
+    public function testContainsSubcategorieVoertuigEuropeesOmschrijving()
     {
         $data = RDW::get('0005WD', 'voertuigSubcategorie');
 
         $this->assertObjectHasAttribute(
-            'subcategorie_voertuig',
+            'subcategorie_voertuig_europees_omschrijving',
             $data
         );
     }
