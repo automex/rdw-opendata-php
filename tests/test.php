@@ -16,6 +16,6 @@ var_dump(RDW::get('XP004T'));
 
 // var_dump(RDW::get('XP004T', 'voertuigklasse'));
 
-// var_dump(RDW::get('0001WP', 'voertuigBijzonderheden'));
+// var_dump(RDW::get('0001WP', 'bijzonderheden'));
 
 // var_dump(RDW::get('0005WD', 'voertuigSubcategorie'));
