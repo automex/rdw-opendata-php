@@ -75,7 +75,7 @@ class RDWTest extends TestCase
         );
     }
 	
-   public function testContainsSubcategorieVolgnummer()
+    public function testContainsSubcategorieVolgnummer()
     {
         $data = RDW::get('0005WD', 'voertuigSubcategorie');
 
